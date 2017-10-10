@@ -22,7 +22,7 @@ def about():
     print "language", language
     print "comment", comment
     return render_template('result.html',name=name,location=location,language=language, comment=comment)  
-    # return redirect ('/resultStep1')
+    return redirect ('/')
 
 # @app.route('/resultStep1')
 # def resultOP():
